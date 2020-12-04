@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Component Library</title>
+</head>
+
+<body>
+    <h1>Sladyn's component Library</h1>
+    <p>I am attending noeg.camp and I want to make a library which would make all my projects look good and consistent.
+    </p>
+    <hr>
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>Let me show you normal text. This is free flowing and will wrap at the end like a paragraph.</p>
+    <small>This is relatively smaller text.</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container and it will go till the end of the page.</div>
+
+    <hr>
+
+    <h2>center container</h2>
+    <div class="container-center">This is a centered container and it will go till the specified width.</div>
+
+    <h2>@links</h2>
+
+    <a href="/" class="link link-primary">Primary Link</a>
+    <a href="/" class="link link-secondary">Secondary Link</a>
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered lists</h3>
+    <p>We dont want to show bullets in the unordered lists. We'll remove that with CSS</p>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>unordered inline lists</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns.</p>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item One</li>
+        <li class="list-item-inline">Item Two</li>
+        <li class="list-item-inline">Item Three</li>
+    </ul>
+
+    <h3>Reverse ordered lists</h3>
+    <p>Reversed counting</p>
+    <ol reversed>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">IAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link link-active">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">about</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg" alt="">
+        <h1 class="hero-heading">Sladyn Nunes the <span class="heading-inverted">Software Engineer</span></h1>
+    </header>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
+                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+                to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off-white section</h1>
+            <h1>off-white section</h1>
+            <h1>off-white section</h1>
+            <h1>off-white section</h1>
+            <p> We are an open community of developers building resources for a better Web, regardless of brand, browser,
+                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+                to drive innovation We are an open community of developers building resources for a better Web, regardless of brand, browser,
+                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+                to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+
+        </div>
+    </section>
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
+            <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
+            <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
